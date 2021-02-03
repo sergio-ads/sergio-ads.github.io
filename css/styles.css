@@ -159,7 +159,7 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #2000ff;
   text-decoration: none;
   background-color: transparent;
 }
@@ -10024,6 +10024,10 @@ p.lead {
   outline-color: #d48a6e;
 }
 
+#sideNav {
+  background-color: #001cffc7 !important;
+}
+
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
@@ -10079,7 +10083,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #001cffc7;
 }
 
 .dev-icons {
@@ -10111,4 +10115,8 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.img-projects {
+	height: 300px;
 }
